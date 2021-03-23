@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Graficas3"
+    android:orientation="vertical"
+    >
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/barChart"
+        />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/pieChart"
+        />
+    <Button
+        android:id="@+id/btngraficas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_entrar"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/btngraficas"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        >
+
+    </Button>
+
+</LinearLayout>

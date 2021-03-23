@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scroll">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Ingreso_Datos_apiarios">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_ingreso_api"
+            android:text="@string/nombre_pantalla2"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@color/colorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittextEstablecimiento"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextestablecimiento"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edittextDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextdireccion"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/edittextColmenas"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:focusable="false"
+                android:textColor="@color/colorBlue"
+                android:hint="@string/edittextNumero_de_colmenas"
+                android:textSize="18sp"/>
+
+            <NumberPicker
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="top"
+                android:id="@+id/numberpicker1"
+                android:textColor="@color/colorBlue"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edittextFechavisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextFecha_de_la_visita"
+            android:focusable="false"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/edittextTrabajo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextTrabajo"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/edittextProximavisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextProxima_visita"
+            android:focusable="false"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/edittextGps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextGps"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/edittextObservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittextObservaciones"
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colororange"
+            android:text="@string/guardar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

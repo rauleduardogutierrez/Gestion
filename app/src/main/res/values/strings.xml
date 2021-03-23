@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="title_activity_gestion_principal">Gestion Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gestion De Apiarios</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Gestion de apiarios</string>
+
+    <string name="usuario">Usuario :</string>
+    <string name="password">Password :</string>
+    <string name="entrar">Entrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="registrate">No estas registrado :</string>
+    <string name="registrarse">Registrate</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_apiarios">Apiarios</string>
+
+    #Apiarios
+    <string name="nombre_apiarios">APIARIOS</string>
+    <string name="boton_ver_apiarios">VER APIARIOS</string>
+    <string name="boton_ingresar_apiarios">INGRESAR APIARIOS</string>
+    <string name="boton_graficas_apiarios">GRAFICAS APIARIOS</string>
+
+    <string name="add_apiario">Agregar un apiario</string>
+
+    #INGRESO DATOS APIARIO
+    <string name="nombre_pantalla">DATOS APIARIOS</string>
+    <string name="nombre_pantalla2">INGRESO DATOS APIARIOS</string>
+    <string name="edittextestablecimiento">ESTABLECIMIENTO :</string>
+    <string name="edittextdireccion">DIRECCION :</string>
+    <string name="edittextNumero_de_colmenas">Nº DE COLMENAS :</string>
+    <string name="edittextFecha_de_la_visita">FECHA DE LA VISITA :</string>
+    <string name="edittextTrabajo">TRABAJO :</string>
+    <string name="edittextProxima_visita">PROXIMA VISITA :</string>
+    <string name="edittextGps">GPS :</string>
+    <string name="edittextObservaciones">OBSERVACIONES :</string>
+    <string name="guardar">Agregar datos</string>
+
+
+    <string name="btngraficas">Graficas</string>
+
+    btngraficas
+
+    #fotos
+    <string name="menu_fotos">Agregar Fotos</string>
+    <string name="imagesavedsuccefully">Foto salvada</string>
+    <string name="boton_fotos_apiarios">Fotos</string>
+
+    boton_fotos_apiarios
+
+
+    <string name="no_guardado">Llene todos los campos</string>
+    <string name="borrado">Se borro el apiario</string>
+    <string name="no_actulisado">No se pudo actualisar el apiario</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

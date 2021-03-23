@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_apiarios"
+    tools:context=".ui.Apiarios">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_apiarios"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:id="@+id/texto_apiarios"
+        android:background="@color/colorBlack"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagen_abeja"
+        android:src="@drawable/logo2"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        >
+    </ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver_apiarios"
+        android:text="@string/boton_ver_apiarios"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorBlue"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/colororange"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingresar_apiarios"
+        android:text="@string/boton_ingresar_apiarios"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorBlue"
+        android:background="@color/colororange"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver_graficas_apiarios"
+        android:text="@string/boton_graficas_apiarios"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorBlue"
+        android:background="@color/colororange"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver_fotos_apiarios"
+        android:text="@string/boton_fotos_apiarios"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorBlue"
+        android:background="@color/colororange"
+        >
+
+    </Button>
+
+</LinearLayout>
